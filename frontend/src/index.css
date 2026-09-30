@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Design tokens: one palette for the whole app */
+:root {
+  --ink: #17221d;
+  --ink-soft: #26352d;
+  --paper: #f5f1e8;
+  --card: #faf8f2;
+  --line: #ddd8cc;
+  --gold: #dcb76a;
+  --clay: #9d5e4f;
+  --sage: #52665a;
+  --muted: #5f665f;
+  --radius: 3px;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #17221d;
+  background: #f5f1e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
